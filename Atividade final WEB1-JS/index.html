@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Catálogo de Filmes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <center>
+    <h1 id="titulo">Catálogo de Filmes do Julinho 🎬</h1>
+    <p>trabalho de JS - prática 2 e 3</p>
+  </center>
+  <hr>
+
+  <div id="destaque">
+    <b>Destaque da Semana:</b> Parasita (2019) 🏆
+  </div>
+  <br>
+
+  <div class="barra">
+    Buscar: <input type="text" id="busca" placeholder="Buscar filme...">
+    &nbsp;&nbsp;
+    Gênero:
+    <select id="filtro-genero">
+      <option value="Todos">Todos</option>
+    </select>
+    &nbsp;&nbsp;
+    <button id="btn-inverter">Inverter ordem</button>
+  </div>
+
+  <p>Quantidade de filmes: <span id="contador">0</span></p>
+
+  <section id="catalogo"></section>
+
+  <hr>
+
+  <div id="favoritos">
+    <h2>Meus favoritos (<span id="contador-favoritos">0</span>)</h2>
+    <p id="mensagem"></p>
+    <ul id="lista-favoritos"></ul>
+    <button id="btn-limpar-favoritos">Limpar favoritos</button>
+  </div>
+
+  <br>
+  <p><small>feito por mim, aluno de ES 2º sem. kkk</small></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

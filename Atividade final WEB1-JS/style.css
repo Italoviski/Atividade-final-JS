@@ -1,0 +1,94 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #222;
+  color: white;
+  margin: 10px;
+}
+
+h1 {
+  color: #ff3333;
+}
+
+#destaque {
+  background-color: #ff9900;
+  color: black;
+  padding: 10px;
+  border: 2px dashed black;
+  text-align: center;
+}
+
+.barra {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 4px;
+  width: 200px;
+}
+
+select {
+  padding: 4px;
+}
+
+button {
+  background-color: #ff3333;
+  color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#catalogo {
+  width: 100%;
+}
+
+.card {
+  width: 220px;
+  height: 480px;
+  background-color: #333;
+  border: 3px solid #555;
+  margin: 10px;
+  padding: 8px;
+  float: left;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 260px;
+  border: 1px solid white;
+}
+
+.card button {
+  margin-top: 10px;
+}
+
+.selo {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.vazio {
+  color: #ccc;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#favoritos {
+  background-color: #444;
+  padding: 15px;
+  border: 2px solid white;
+  clear: both;
+}
+
+#mensagem {
+  color: yellow;
+}
